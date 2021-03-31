@@ -15,7 +15,7 @@ void sortByBubble(int elements, int arr[])
             }
         }
     }   
-}\]
+}
 
 int main()
 {
