@@ -12,13 +12,10 @@ int binarySearch(int arr[],int search,int start,int end)
             return mid;
 
         else if(search<arr[mid])
-        {
             binarySearch(arr,search,start,mid-1);
-        }
+ 
         else
-        {
-            binarySearch(arr,search,mid+1,end);  
-        }
+            binarySearch(arr,search,mid+1,end);
     }
 }
 
